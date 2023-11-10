@@ -1,28 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap");
-@font-face {
-  font-family: "Poppins-Bold";
-  src: url(/assets/fonts/Poppins-Bold.ttf);
-}
-@font-face {
-  font-family: "Poppins-BoldItalic";
-  src: url(/assets/fonts/Poppins-BoldItalic.ttf);
-}
-@font-face {
-  font-family: "Poppins-ExtraBold";
-  src: url(/assets/fonts/Poppins-ExtraBold.ttf);
-}
-@font-face {
-  font-family: "Poppins-ExtraBoldItalic";
-  src: url(/assets/fonts/Poppins-ExtraBoldItalic.ttf);
-}
-@font-face {
-  font-family: "Poppins-Italic";
-  src: url(/assets/fonts/Poppins-Italic.ttf);
-}
-@font-face {
-  font-family: "Poppins-Regular";
-  src: url(/assets/fonts/Poppins-Regular.ttf);
-}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -362,7 +338,7 @@ input:hover {
 label {
   text-transform: uppercase;
   color: #979595;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 10px;
   letter-spacing: 3px;
@@ -370,21 +346,21 @@ label {
 
 ::-moz-placeholder {
   color: #979595;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 17px;
 }
 
 ::placeholder {
   color: #979595;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 17px;
 }
 
 input {
   color: hsl(0, 0%, 8%);
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-sie: 17px;
 }
@@ -392,7 +368,7 @@ input {
 .error-text {
   color: hsl(0, 100%, 67%);
   font-size: 10px;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: italic;
   margin-top: 1.8em;
 }
@@ -402,7 +378,7 @@ hr {
   width: 95%;
 }
 h1 {
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-style: italic;
   font-size: 3rem;
