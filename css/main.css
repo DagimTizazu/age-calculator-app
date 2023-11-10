@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap");
 @font-face {
   font-family: "Poppins-Bold";
   src: url(/assets/fonts/Poppins-Bold.ttf);
@@ -362,33 +362,38 @@ input:hover {
 label {
   text-transform: uppercase;
   color: #979595;
-  font-family: Poppins-Bold;
+  font-family: Poppins;
+  font-weight: 700;
   font-size: 10px;
   letter-spacing: 3px;
 }
 
 ::-moz-placeholder {
   color: #979595;
-  font-family: Poppins-Bold;
+  font-family: Poppins;
+  font-weight: 700;
   font-size: 17px;
 }
 
 ::placeholder {
   color: #979595;
-  font-family: Poppins-Bold;
+  font-family: Poppins;
+  font-weight: 700;
   font-size: 17px;
 }
 
 input {
   color: hsl(0, 0%, 8%);
-  font-family: Poppins-Bold;
+  font-family: Poppins;
+  font-weight: 700;
   font-sie: 17px;
 }
 
 .error-text {
   color: hsl(0, 100%, 67%);
   font-size: 10px;
-  font-family: Poppins-Italic;
+  font-family: Poppins;
+  font-style: italic;
   margin-top: 1.8em;
 }
 
@@ -397,7 +402,9 @@ hr {
   width: 95%;
 }
 h1 {
-  font-family: Poppins-ExtraBoldItalic;
+  font-family: Poppins;
+  font-weight: 800;
+  font-style: italic;
   font-size: 3rem;
   line-height: 20px;
   white-space: nowrap;
